@@ -2,11 +2,11 @@
 server:
   url: https://example-site.netlify.app
 stores:
-  annotations:
-    type: w3c-annotations
-    containerIdResolution: sha1
-    path: annotations/{target}
-    filePerAnnotation: true
+#  annotations:
+#    type: w3c-annotations
+#    containerIdResolution: sha1
+#    path: annotations/{target}
+#    filePerAnnotation: true
   manifests:
     type: iiif-manifests
     idResolution: sha1
