@@ -1,0 +1,13 @@
+#$schema: https://iiif-sandbox.stephen.wf/api/v1/config/schema.json
+server:
+  url: https://example-site.netlify.app
+stores:
+  annotations:
+    type: w3c-annotations
+    containerIdResolution: sha1
+    path: annotations/{target}
+    filePerAnnotation: true
+  manifests:
+    type: iiif-manifests
+    idResolution: sha1
+    path: content/manifests
